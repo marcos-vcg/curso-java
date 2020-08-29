@@ -13,6 +13,7 @@ public class E2 {
 		for (int i = entrada.length() - 1; i >= 0; i--) {
 			saida = saida + entrada.charAt(i);
 		}
+		
 		System.out.println("A palavra invertida é:");
 		System.out.println(saida);
 	}
