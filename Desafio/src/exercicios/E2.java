@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class E2 {
 
 	public static void main(String[] args) {
-		System.out.println("Informe a palavra:");
+		System.out.print("Informe a palavra: ");
 		Scanner leitor = new Scanner(System.in);
 		String entrada = leitor.next();
 		String saida = "";
@@ -14,8 +14,7 @@ public class E2 {
 			saida = saida + entrada.charAt(i);
 		}
 		
-		System.out.println("A palavra invertida é:");
-		System.out.println(saida);
+		System.out.println("A palavra invertida é: " + saida);
 	}
 	
 }
