@@ -11,9 +11,4 @@ public class E4 {
 		
 	}
 
-	private static void replace(String string, String string2) {
-		// TODO Auto-generated method stub
-		
-	}
-
 }
