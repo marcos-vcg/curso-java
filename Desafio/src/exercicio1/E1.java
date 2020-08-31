@@ -1,8 +1,6 @@
-package exercicios;
+package exercicio1;
 
 import java.util.Scanner;
-
-import javax.swing.JOptionPane;
 
 public class E1 {
 
@@ -10,8 +8,11 @@ public class E1 {
 		
 		Scanner ler = new Scanner(System.in);
 		
-		String palavra1 = JOptionPane.showInputDialog(null, "Palavra 1").trim();
-		String palavra2 = JOptionPane.showInputDialog(null, "Palavra 2").trim();
+		System.out.println("Informe a primeira palavra:");
+		String palavra1 = ler.nextLine().trim();
+		
+		System.out.println("Informe a segunda palavra:");
+		String palavra2 = ler.nextLine().trim();
 		
 		if (palavra1.length() > palavra2.length())
 			System.out.println("A maior palavra é: " +  palavra1);

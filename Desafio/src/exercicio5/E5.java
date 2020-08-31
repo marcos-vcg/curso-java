@@ -1,4 +1,4 @@
-package exercicios;
+package exercicio5;
 
 import java.util.Map;
 
