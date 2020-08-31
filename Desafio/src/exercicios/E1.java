@@ -14,10 +14,11 @@ public class E1 {
 		System.out.println("Informe a segunda palavra:");
 		String palavra2 = ler.nextLine();
 		
-		if (palavra1.length() < palavra2.length())
-			palavra1 = palavra2;
+		if (palavra1.length() > palavra2.length())
+			System.out.println("A maior palavra é: " +  palavra1);
+		else if (palavra1.length() < palavra2.length())
+			System.out.println("A maior palavra é: " +  palavra2);
+		else System.out.println("As palavras possuem o mesmo tamanho!");
 			
-		System.out.println("A maior palavra é: " +  palavra1);
-		
 	}
 }
