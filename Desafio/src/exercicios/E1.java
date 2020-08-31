@@ -9,10 +9,10 @@ public class E1 {
 		Scanner ler = new Scanner(System.in);
 		
 		System.out.println("Informe a primeira palavra:");
-		String palavra1 = ler.nextLine();
+		String palavra1 = ler.nextLine().trim();
 		
 		System.out.println("Informe a segunda palavra:");
-		String palavra2 = ler.nextLine();
+		String palavra2 = ler.nextLine().trim();
 		
 		if (palavra1.length() > palavra2.length())
 			System.out.println("A maior palavra é: " +  palavra1);
