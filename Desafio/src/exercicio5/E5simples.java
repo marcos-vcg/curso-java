@@ -2,7 +2,7 @@ package exercicio5;
 
 import java.util.HashMap;
 
-public class E5simplificado {
+public class E5simples {
 
 	public static void main(String[] args) {
 		

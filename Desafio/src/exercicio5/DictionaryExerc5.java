@@ -15,7 +15,6 @@ public class DictionaryExerc5 {
 		return dictionary5;
 	}
 	
-	//função recebe uma string e retorna a string com a substituição da chave pelo valor do DictionaryExerc5
 	public String ReplaceKeyByValues(String pString) {
 		HashMap<Integer, String> dictionary5 = getDictionary();
 		
