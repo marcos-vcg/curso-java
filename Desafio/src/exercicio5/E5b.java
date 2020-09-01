@@ -1,9 +1,7 @@
 package exercicio5;
 
 public class E5b {
-
 	
-		
 	public static void main(String[] args) {
 		
 		String frase = "T35t3 d3 35t4g1o";
