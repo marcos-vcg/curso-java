@@ -1,6 +1,6 @@
 package exercicio5;
 
-public class E5b {
+public class E5teste {
 	
 	public static void main(String[] args) {
 		

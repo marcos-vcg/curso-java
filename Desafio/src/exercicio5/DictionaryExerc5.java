@@ -19,7 +19,7 @@ public class DictionaryExerc5 {
 	public String ReplaceKeyByValues(String pString) {
 		HashMap<Integer, String> dictionary5 = getDictionary();
 		
-		for(Integer key: dictionary5.keySet()){
+		for(Integer key: dictionary5.keySet()) {
 			pString = pString.replaceAll(key.toString(), dictionary5.get(key));
 		}
 		

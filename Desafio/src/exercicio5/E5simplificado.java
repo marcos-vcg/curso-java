@@ -2,7 +2,7 @@ package exercicio5;
 
 import java.util.HashMap;
 
-public class E5a {
+public class E5simplificado {
 
 	public static void main(String[] args) {
 		
@@ -14,9 +14,11 @@ public class E5a {
 	
 		String frase = "T35t3 d3 35t4g1o";
 		
-		for(int i = 0; i < frase.length(); i++) {
-			frase = frase.replaceAll(dicionario.keySet().toString(), dicionario.values());
+		for(Integer chave: dicionario.keySet()) {
+			frase = frase.replaceAll(chave.toString(), dicionario.get(chave));
 		}
+		
+		System.out.println(frase);
 	}
 	
 }
