@@ -4,7 +4,7 @@ import java.util.Map;
 
 import exercicio7.StingBuilder;
 
-public class E6 {
+public class E6a {
 
 	public static void main(String[] args) {
 		
