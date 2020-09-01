@@ -1,7 +1,7 @@
 package exercicio6a10;
 
 public class Exercicio7 {
-
+	// E.7 Imprima a soma das idades 
 	public static void main(String[] args) {
 		
 		Cadastro[] pessoa = new Cadastro[4];
@@ -13,7 +13,7 @@ public class Exercicio7 {
 		
 		int somaIdade = 0;
 		for(Cadastro cad: pessoa) {
-			somaIdade = somaIdade + cad.getIdade();
+			somaIdade += cad.getIdade();
 		}
 		
 		System.out.println("A soma das idades é: " + somaIdade + " anos!");
