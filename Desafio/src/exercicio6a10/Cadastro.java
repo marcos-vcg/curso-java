@@ -1,4 +1,4 @@
-package exercicio6;
+package exercicio6a10;
 
 import java.util.HashMap;
 import java.util.Map;
