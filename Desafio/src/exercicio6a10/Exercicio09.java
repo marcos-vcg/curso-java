@@ -15,12 +15,5 @@ public class Exercicio09 {
 				System.out.println("{Id: " + cad.getId() + ", Nome: " + cad.getNome() 
 					+ ", Sobrenome: " + cad.getSobrenome() + ", Idade: " + cad.getIdade() + "}");
 		}
-		
-//		for(int i = 0; i < pessoa.length; i++) {
-//		if (pessoa[i].getIdade() < 30)
-//			System.out.println("{Id: " + pessoa[i].getId() + pessoa[i].getNome());
-//		}
-
 	}
-
 }
