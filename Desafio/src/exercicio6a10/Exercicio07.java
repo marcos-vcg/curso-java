@@ -1,6 +1,6 @@
 package exercicio6a10;
 
-public class Exercicio7 {
+public class Exercicio07 {
 	// E.7 Imprima a soma das idades 
 	public static void main(String[] args) {
 		

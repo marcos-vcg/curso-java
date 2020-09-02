@@ -1,6 +1,6 @@
 package exercicio4;
 
-public class Exercicio4 {
+public class Exercicio04 {
 	//E.4 Dado a seguinte string 'teste 1 de 2 string 3', substitua todas as ocorrências de números pelo valor '[removido]'.
 	public static void main(String[] args) {
 		

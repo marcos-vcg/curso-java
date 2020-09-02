@@ -2,7 +2,7 @@ package exercicio1;
 
 import javax.swing.JOptionPane;
 
-public class Exercicio1 {
+public class Exercicio01 {
 	//E.1 Crie uma função que recebe dois argumentos string e retorna o de maior comprimento.	
 	public static void main(String[] args) {
 		

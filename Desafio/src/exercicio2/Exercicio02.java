@@ -2,7 +2,7 @@ package exercicio2;
 
 import javax.swing.JOptionPane;
 
-public class Exercicio2 {
+public class Exercicio02 {
 	//E.2 Crie uma função que receba uma string e imprima o valor ao contrário.
 	public static void main(String[] args) {
 		

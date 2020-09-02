@@ -2,7 +2,7 @@ package exercicio3;
 
 import javax.swing.JOptionPane;
 
-public class Exercicio3 {
+public class Exercicio03 {
 	//E.3 Crie uma função que recebe vários argumentos do tipo string e imprime todos juntos
 	public static void main(String[] args) {	
 		JuntarPalavra();
