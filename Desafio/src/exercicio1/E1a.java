@@ -1,23 +1,22 @@
 package exercicio1;
 
-import java.util.Scanner;
-
 import javax.swing.JOptionPane;
 
-public class E1 {
+public class E1a {
 
 	public static void main(String[] args) {
-		
-		Scanner ler = new Scanner(System.in);
 		
 		String palavra1 = JOptionPane.showInputDialog(null, "Palavra 1").trim();
 		String palavra2 = JOptionPane.showInputDialog(null, "Palavra 2").trim();
 		
-		if (palavra1.length() > palavra2.length())
-			System.out.println("A maior palavra é: " +  palavra1);
-		else if (palavra1.length() < palavra2.length())
-			System.out.println("A maior palavra é: " +  palavra2);
+		MaiorPalavra(palavra1, palavra2);		
+	}
+	
+	public static void MaiorPalavra(String pPalavra1, String pPalavra2) {
+		if (pPalavra1.length() > pPalavra2.length())
+			System.out.println("A maior palavra é: " +  pPalavra1);
+		else if (pPalavra1.length() < pPalavra2.length())
+			System.out.println("A maior palavra é: " +  pPalavra2);
 		else System.out.println("As palavras possuem o mesmo tamanho!");
-			
 	}
 }

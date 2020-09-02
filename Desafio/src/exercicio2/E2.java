@@ -3,7 +3,7 @@ package exercicio2;
 import java.util.Scanner;
 
 public class E2 {
-
+	//E.2 Crie uma função que receba uma string e imprima o valor ao contrário.
 	public static void main(String[] args) {
 		System.out.print("Informe a palavra: ");
 		Scanner leitor = new Scanner(System.in);
