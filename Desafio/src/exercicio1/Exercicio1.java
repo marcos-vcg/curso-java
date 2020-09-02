@@ -2,8 +2,8 @@ package exercicio1;
 
 import javax.swing.JOptionPane;
 
-public class E1a {
-
+public class Exercicio1 {
+	//E.1 Crie uma função que recebe dois argumentos string e retorna o de maior comprimento.	
 	public static void main(String[] args) {
 		
 		String palavra1 = JOptionPane.showInputDialog(null, "Palavra 1").trim();
