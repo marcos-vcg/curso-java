@@ -1,9 +1,6 @@
 package exercicio6a10;
 
-import java.util.HashMap;
-import java.util.Map;
-
-public class Cadastro {
+public class Cadastro implements Comparable<Cadastro> {
 
 	private int id;
 	private String nome;
@@ -50,6 +47,9 @@ public class Cadastro {
 		this.idade = idade;
 	}
 
-	
+	@Override
+	public int compareTo(Cadastro pCadastro) {
+		return ( (pCadastro.getIdade() - this.idade) + (pCadastro.getId() - this.id) );
+	}
 	
 }
